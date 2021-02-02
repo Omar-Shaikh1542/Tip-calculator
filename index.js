@@ -6,8 +6,8 @@ submit.addEventListener("click", showResult);
 function showResult(event){
 
 
-    event.preventDefault();
-    console.log(event);
+    event.preventDefault(event);
+    
     var bill = parseInt(document.getElementById("bill").value);
     var service = parseInt(document.getElementById("service").value);
     var answer = document.getElementById("answer");
@@ -16,11 +16,11 @@ function showResult(event){
         answer.innerHTML = "Error";
         document.getElementById("img").style.display = "none";
         
-        return;
+        
         
     }
     var tip = bill * (service/100);
-    document.getElementById("img").style.display = "block";
+   
 
     answer.innerHTML = tip;
 }
