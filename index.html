@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> project 1</title>
+
+        <meta name ="viewport" content ="width=device-width, initial-scale=1">
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!-- css link -->
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+        <!-- jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    </head>
+    <body>
+        <div class = "tip-calci">
+            <div class = "calci-model">
+                <div class = "calci-title">
+                    <h4> Tip Calculator </h4>
+                    <hr>
+                </div>
+                <div class = "calci-body">
+                    <form>
+                        <p>how much was the bill?</p>
+                        <input type="number" name="" id="bill" value = "0">
+
+                        <p>how was your service</p>
+                        <select name="" id="service">
+                            <option disabled selected value="0">Choose your option</option>
+                            <option value = "30">Excellent</option>
+                            <option value = "20">Very Good</option>
+                            <option value = "15">Good</option>
+                            <option value = "10">It was ok</option>
+                            <option value = "5">bad</option>
+                            
+                        </select>
+                        <div class = "calci-button">
+                            <button class = "btn btn-md btn-dark text-light" id = "submit">Calculate</button>
+    
+                        </div>
+
+                        
+                    </form>
+                    
+                    <div class = "calci-ans" id = "calci-ans">
+                        <img id = "img" src="https://img.icons8.com/windows/32/000000/rupee.png"/>
+                            <span>
+                            <h2 class = "answer" id = "answer">0.00</h2>
+
+                        </span>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <script type = "text/javascript" src = "index.js"></script>
+    </body>
+</html>

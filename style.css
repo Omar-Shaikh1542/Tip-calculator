@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+
+}
+body{
+    overflow: hidden;
+    background-color: rgb(236, 229, 229);
+    background-image: url("https://images.unsplash.com/photo-1584797265220-50dffab120d2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+ol, ul{
+    list-style: none;
+}
+p{
+    font-size: large;
+    font-weight: 500;
+    color: rgb(206, 255, 255);
+}
+h4{
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgb(206, 255, 255);
+
+
+}
+@media screen and (max-width: 530px){
+    h4{
+        font-size: 2.5rem;
+        font-weight: 400;
+        color: rgb(206, 255, 255);
+    
+    
+    }
+    p{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(206, 255, 255);
+    }
+}
+@media screen and (max-width: 400px){
+    h4{
+        font-size: 1.5rem;
+    }
+}
+.tip-calci{
+    
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
+    
+}
+.calci-model{
+    background-color: rgba(0, 0, 0, 0.726);
+    width: 50%;
+    
+    border-radius: 5px;
+    box-shadow: 1px 1px 33px black;
+    
+}
+.calci-title{
+    text-align: center;
+    
+    padding: 5%;
+    padding-bottom: 0;
+}
+
+.calci-body{
+    text-align: center;
+    margin: 5%;
+    padding: 5%;
+}
+.calci-body input{
+    width: 70%;
+    height: 5vh;
+
+}
+.calci-body p{
+    margin: 5%;
+    margin-bottom: 2%;
+}
+select{
+    /* margin: 554% 0% 0% %; */
+    width: 70%;
+    height: 5vh;
+    text-align: center;
+}
+
+.calci-button{
+    padding-top: 5%;
+    margin: 5%;
+}
+.calcsi-button b{
+    width: 15%;
+}
+.calci-ans{
+    margin: 5%;
+    display: inline-flex;
+    
+}
